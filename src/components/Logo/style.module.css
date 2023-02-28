@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+}
+
+.title img{
+    height: 50px;
+    width: 250px;
+    margin-top: 60px;
+    margin-left: -50px;
+}
