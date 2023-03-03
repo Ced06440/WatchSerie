@@ -15,6 +15,7 @@ function TVShowDetail({tvShow}){
 
         <div className={s.overview}>{tvShow.overview}</div>
     </div>
+    
     )
 }
 

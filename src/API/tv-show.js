@@ -22,4 +22,10 @@ export class tvShowAPI{
             );
         return response.data.results;
     }
+    
+    static async fetchAggregateCredits(tvShowId) {
+        const response = await axios.get(
+            `${BASE_URL}tv/${tvShowId}/aggregate_credits${API_KEY_PARAM}`);
+            return response.data.cast;           
+    }
 }

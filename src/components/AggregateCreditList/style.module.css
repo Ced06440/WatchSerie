@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    width: 100vw - 25px;
+}
+
+.title{
+    font-weight: 60px;
+    font-size: 20px;
+}
+
+.aggregate_credit_list_item{
+    margin-left: 20px;
+}
